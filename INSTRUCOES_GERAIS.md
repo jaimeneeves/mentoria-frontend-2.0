@@ -66,7 +66,6 @@ Cada encontro tem:
 1. Finalize o exercício prático.
 2. Leia o **README** do encontro e tente o **desafio extra**.
 3. Salve seu progresso (ou envie o link do seu CodePen/GitHub no grupo da mentoria).
-4. Revise o código da correção (apresentado pelo mentor no final do encontro).
 
 ---
 
