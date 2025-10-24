@@ -124,5 +124,26 @@ Levar os alunos que já têm a base (HTML, CSS e JS) para o **próximo nível**,
 
 ---
 
-## 🗂️ Estrutura Recomendada do Repositório
+## 📢 Como Participar
+
+1. Acesse o link do Google Meet que será enviado no grupo do WhatsApp.  
+2. Tenha o **VSCode** instalado e pronto para codar ao vivo.  
+3. Faça os **desafios práticos** ao final de cada encontro.  
+4. Envie seu projeto final pelo link disponibilizado no último encontro.
+
+---
+
+## 💬 Contato e Suporte
+
+Dúvidas ou sugestões?  
+Entre em contato pelo grupo oficial no WhatsApp ou envie uma mensagem para o mentor:
+
+**👨‍🏫 Mentor:** Jaime Neves  
+**YouTube:** [@JaimeNeves](https://www.youtube.com/@jaimeneves)  
+**GitHub:** [github.com/jaimenevesdev](https://github.com/jaimeneeves)
+
+---
+
+> 💡 *Prepare-se para um novo nível de aprendizado.  
+> Vamos escrever um código mais limpo, dinâmico e moderno juntos!*
 
