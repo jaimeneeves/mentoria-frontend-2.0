@@ -7,6 +7,7 @@
 ## 🎯 Objetivo
 
 Criar um **sistema de cards reutilizáveis** usando funções JavaScript.
+Exemplo de cards: curso, aluno, projeto.
 
 O objetivo é entender o que é um **componente** (mesmo sem React) e como reutilizar código.
 
