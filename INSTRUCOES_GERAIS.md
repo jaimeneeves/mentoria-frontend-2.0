@@ -21,7 +21,7 @@ Você vai trabalhar diretamente dentro do **VSCode** e executar o projeto localm
 ### 🧰 Passo a passo
 
 1. **Abra o VSCode** e entre na pasta do encontro (ex: `encontro-1`) e vá para o diretório `projeto`.  
-2. **Verifique se o arquivo `index.html` está aberto.**  
+2. **Abra o arquivo `index.html`.**  
 3. No canto inferior direito, clique em **"Go Live"** (ícone do Live Server).  
 4. O navegador abrirá automaticamente com o endereço: `http://localhost:5500`
 5. **Escreva o código JavaScript** no arquivo `script.js`.  
