@@ -134,9 +134,4 @@ Gerenciar o estado de forma eficiente é crucial para criar aplicações interat
 
 ### 🧰 Atividade Prática
 
-> Criar um card de usuário dinâmico.
-
-- Inputs para nome, profissão e imagem.
-- Botão que atualiza o card ao clicar.
-
-💪 O JavaScript conecta os dados da sua lógica ao que o usuário vê.
+A Atividade prática está detalhada no arquivo [projeto/README.md](projeto/README.md).
