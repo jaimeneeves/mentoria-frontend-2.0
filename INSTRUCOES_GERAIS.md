@@ -87,9 +87,9 @@ No final da mentoria, você terá desenvolvido:
 
 ---
 
-> 👨‍🏫 **Mentor:** Jaime Neves  
-> **YouTube:** [@JaimeNeves](https://www.youtube.com/@JaimeNeves)  
-> **GitHub:** [github.com/jaimenevesdev](https://github.com/jaimenevesdev)  
+> **👨‍🏫 Mentor:** Jaime Neves  
+> **YouTube:** [@jaimeneves](https://www.youtube.com/@jaimeneves)  
+> **GitHub:** [@jaimeneeves](https://github.com/jaimeneeves)
 
 ---
 
