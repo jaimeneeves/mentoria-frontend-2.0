@@ -22,7 +22,7 @@ Levar os alunos que já têm a base (HTML, CSS e JS) para o **próximo nível**,
 - **Nível:** Intermediário (ideal para quem já fez a Mentoria Frontend 1.0)  
 - **Suporte:** Grupo no WhatsApp exclusivo para dúvidas e troca de experiências  
 
-## 📄 [Conteúdo Programático](CONTEUDO_PROGRAMATICO.md)
+## 📄 [Conteúdo Programático](CONTEUDO_PROGRAMATICO.md) (clique para abrir)
 
 ## 🧰 Recursos da Mentoria
 
