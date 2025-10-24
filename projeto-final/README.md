@@ -1,65 +1,15 @@
-# 📝 Projeto Final – To-Do List Interativa
+🎨 ENCONTRO 4 – Mini Projeto Final: To-Do List
 
-> 🚀 Colocando tudo em prática: HTML, CSS e JavaScript dinâmico!
+> 🚀 Colocando tudo em prática num projeto real.
 
-Este projeto é o desafio final da **Mentoria Frontend 2.0 – Nível Intermediário**, e tem como objetivo aplicar os principais conceitos aprendidos durante os quatro encontros.
+## 🎯 Objetivos
 
-Você vai criar uma aplicação interativa de **lista de tarefas (To-Do List)** com adição, remoção, conclusão e persistência de dados no navegador.
+- Unir tudo que foi aprendido.
+- Criar uma aplicação completa com **interatividade e persistência**.
 
----
+## 🗂️ Estrutura Base
 
-## 🎯 Objetivo do Projeto
-
-Desenvolver uma aplicação simples, mas completa, que envolva:
-
-- Manipulação de **DOM** com JavaScript puro.  
-- Uso de **eventos** (click, input).  
-- Armazenamento de dados com **localStorage**.  
-- Boas práticas de **organização e componentização**.  
-- Estrutura de código **limpa e reutilizável**.
-
----
-
-## ⚙️ Funcionalidades Esperadas
-
-- ✅ Adicionar uma nova tarefa à lista ao clicar no botão ou pressionar "Enter".
-- ✅ Editar tarefas existentes - Permitir clicar em uma tarefa e editar o texto.
-- ✅ Remover tarefas da lista.
-- ✅ Marcar como concluída - Clicar em uma tarefa para marcar/desmarcar como concluída.
-- ✅ Exibir contador de tarefas pendentes e concluídas.
-- ✅ Salvar tarefas no **localStorage** para persistência entre sessões.
-- ✅ Filtros de visualização - Adicionar botões: "Todas", "Pendentes", "Concluídas".
-
----
-
-## 🧩 Estrutura de Arquivos
-
-```
-projeto-final/
-│── index.html
-│── style.css
-│── script.js
-│── README.md
-```
-- `index.html`: Estrutura básica da aplicação.  
-- `style.css`: Estilos para a interface.
-- `script.js`: Lógica da aplicação em JavaScript.  
-- `README.md`: Documentação do projeto.
-
-
----
-
-## 🧠 Lógica Principal
-
-1. **Capturar os elementos do DOM** (`input`, `button`, `ul`).  
-2. **Armazenar tarefas** em um array local e sincronizar com o `localStorage`.  
-3. **Renderizar dinamicamente** a lista no HTML.  
-4. **Lidar com eventos de clique** para adicionar e remover tarefas.  
-5. **Atualizar automaticamente** o estado da aplicação sempre que algo mudar.
-
----
-
-## 🧰 Exemplo de Estrutura HTML
+HTML com input, botão e lista:
 
 ```html
 <main class="todo">
@@ -76,13 +26,53 @@ projeto-final/
 </main>
 ```
 
----
+## ⚙️ Adicionando Itens
 
-## 🧾 Entrega Final
+```js
+const btnAdd = document.getElementById('btn-add');
+const inputTask = document.getElementById('input-task');
+const taskList = document.getElementById('task-list');
+const counter = document.getElementById('counter');
+const tasks = [];
 
-Envie o link do seu repositório GitHub (ou CodePen / Vercel) com o projeto funcionando.
-Certifique-se de que:
+btnAdd.addEventListener('click', () => {
+  const text = input.value;
+  tasks.push({ text, done: false });
+  renderTasks();
+});
 
-- O HTML está indentado e sem erros.  
-- O CSS segue boas práticas de estilo.
-- O JavaScript está organizado e utiliza boas práticas de programação.
+function renderTasks() {
+  taskList.innerHTML = tasks.map(task => `
+    <li class="${task.done ? 'done' : ''}">${task.text}</li>
+  `).join('');
+  counter.textContent = `Total: ${tasks.length} tarefas`;
+}
+```
+
+💡 Cada tarefa é um objeto no array tasks.
+
+## 💾 Salvando no localStorage
+
+```js
+function saveTasks() {
+  localStorage.setItem('tasks', JSON.stringify(tasks));
+}
+function loadTasks() {
+  const saved = localStorage.getItem('tasks');
+  if (saved) {
+    tasks.push(...JSON.parse(saved));
+    renderTasks();
+  }
+}
+loadTasks();
+
+btnAdd.addEventListener('click', () => {
+  const text = input.value;
+  tasks.push({ text, done: false });
+  saveTasks();
+  renderTasks();
+});
+```
+
+
+Agora é com você! Consulte a página do exemplo para ver as funcionalidades sugeridas e instruções extras: [projeto-exemplo/README.md](projeto-exemplo/README.md) (clique para abrir).
