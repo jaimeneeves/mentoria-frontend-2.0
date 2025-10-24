@@ -139,8 +139,8 @@ Dúvidas ou sugestões?
 Entre em contato pelo grupo oficial no WhatsApp ou envie uma mensagem para o mentor:
 
 **👨‍🏫 Mentor:** Jaime Neves  
-**YouTube:** [@JaimeNeves](https://www.youtube.com/@jaimeneves)  
-**GitHub:** [@JaimeNeves](https://github.com/jaimeneeves)
+**YouTube:** [@jaimeneves](https://www.youtube.com/@jaimeneves)  
+**GitHub:** [@jaimeneeves](https://github.com/jaimeneeves)
 
 ---
 
