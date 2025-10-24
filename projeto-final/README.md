@@ -22,12 +22,13 @@ Desenvolver uma aplicação simples, mas completa, que envolva:
 
 ## ⚙️ Funcionalidades Esperadas
 
-✅ Adicionar uma nova tarefa  
-✅ Remover tarefas  
-✅ Marcar como concluída  
-✅ Exibir contador de tarefas pendentes  
-✅ Salvar tarefas no **localStorage**  
-✅ Filtros de visualização (todas, concluídas, pendentes)
+- ✅ Adicionar uma nova tarefa à lista ao clicar no botão ou pressionar "Enter".
+- ✅ Editar tarefas existentes - Permitir clicar em uma tarefa e editar o texto.
+- ✅ Remover tarefas da lista.
+- ✅ Marcar como concluída - Clicar em uma tarefa para marcar/desmarcar como concluída.
+- ✅ Exibir contador de tarefas pendentes e concluídas.
+- ✅ Salvar tarefas no **localStorage** para persistência entre sessões.
+- ✅ Filtros de visualização - Adicionar botões: "Todas", "Pendentes", "Concluídas".
 
 ---
 
