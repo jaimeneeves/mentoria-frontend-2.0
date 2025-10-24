@@ -73,5 +73,15 @@ projeto-final/
 
   <p id="counter"></p>
 </main>
+```
 
+---
 
+## 🧾 Entrega Final
+
+Envie o link do seu repositório GitHub (ou CodePen / Vercel) com o projeto funcionando.
+Certifique-se de que:
+
+- O HTML está indentado e sem erros.  
+- O CSS segue boas práticas de estilo.
+- O JavaScript está organizado e utiliza boas práticas de programação.
