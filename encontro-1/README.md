@@ -14,14 +14,14 @@
 
 ## 📘 Conteúdo por Slide
 
-### 🖥️ Slide 1 – Introdução
+### 🖥️ Introdução
 
 **Tema:** JavaScript moderno na prática.  
 **Mensagem principal:** O JS é o motor que dá vida ao HTML e CSS.
 
 ---
 
-### ⚙️ Slide 2 – Funções Modernas
+### ⚙️ Funções Modernas
 
 **Arrow Functions:**
 
@@ -60,7 +60,7 @@ document.getElementById('btn').addEventListener('click', (e) => {
 
 📹 **Material de apoio:** [Arrow vs Function no DOM: Entenda o THIS de uma vez!](https://www.youtube.com/watch?v=WIYFOAwSu9E)
 
-### 🧩 Slide 3 – Template Literals
+### 🧩 Template Literals
 
 
 **Interpolação de strings:**
@@ -130,6 +130,7 @@ Gerenciar o estado de forma eficiente é crucial para criar aplicações interat
     document.getElementById('title').textContent = title;
   });
 </script>
+```
 
 ### 🧰 Atividade Prática
 
