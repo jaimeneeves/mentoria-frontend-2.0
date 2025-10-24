@@ -140,7 +140,7 @@ Entre em contato pelo grupo oficial no WhatsApp ou envie uma mensagem para o men
 
 **👨‍🏫 Mentor:** Jaime Neves  
 **YouTube:** [@JaimeNeves](https://www.youtube.com/@jaimeneves)  
-**GitHub:** [github.com/jaimenevesdev](https://github.com/jaimeneeves)
+**GitHub:** [@JaimeNeves](https://github.com/jaimeneeves)
 
 ---
 
