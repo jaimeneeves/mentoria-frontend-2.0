@@ -51,7 +51,7 @@ Levar os alunos que já têm a base (HTML, CSS e JS) para o **próximo nível**,
 - Arrays e métodos úteis (`map`, `filter`, `forEach`, `find`)  
 - Objetos e estrutura de dados  
 - Gerando conteúdo dinâmico com dados de um array de objetos  
-- Manipulando listas no DOM  
+- Manipulando listas no DOM
 
 **Atividade prática:**
 - Criar uma listagem de produtos/cursos com botão de filtro (ex: “Mostrar só JavaScript”)
