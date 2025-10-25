@@ -53,24 +53,28 @@
 
 ---
 
-## 🎨 Encontro 4 – Mini Projeto Final: Aplicação Interativa  
-> 🚀 Colocando tudo em prática num projeto real
+## 🎨 Encontro 4 – Mini Projeto Final: Sistema Kanban Interativo
+> 🚀 Colocando tudo em prática com um projeto que parece de empresa!
 
 **Tópicos:**
-- Planejamento do projeto (estrutura, pastas e arquivos)  
-- Integração de tudo: HTML, CSS e JS dinâmico  
-- Persistência com `localStorage`  
-- Boas práticas de organização e refatoração  
+- Estrutura e planejamento do projeto (HTML + CSS base + script principal).
+- Manipulação dinâmica de listas (DOM e arrays).
+- Eventos avançados de arrastar e soltar (Drag & Drop).
+- Persistência de dados com localStorage.
+- Componentização e organização do código.
 
-**Projeto Guiado:**  
-📝 Criar um **To-Do List / Gerenciador de Tarefas** com:
-- Adicionar, editar e remover tarefas  
-- Marcar tarefas como concluídas  
-- Salvar tarefas no `localStorage`  
-- Contador dinâmico de tarefas pendentes  
-- Filtros para visualizar todas, pendentes ou concluídas  
+**Projeto Guiado:**
+
+📝 Criar um **Sistema Kanban de Tarefas**, com:
+
+- Criação e exclusão de tarefas;
+- Colunas “A Fazer”, “Fazendo” e “Concluído”;
+- Reorganização com **arrastar e soltar**;
+- Salvamento automático das tarefas no `localStorage`;
+- Contadores de tarefas por coluna.
 
 **Encerramento:**
-- Revisão do código  
-- Demonstração dos projetos dos alunos  
-- Dicas para próximos passos no aprendizado de Frontend
+
+- Revisão do código e boas práticas;
+- Demonstração dos projetos dos alunos;
+- Dicas para transformar o projeto em portfólio profissional.

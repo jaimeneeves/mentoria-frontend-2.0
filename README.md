@@ -9,9 +9,9 @@ Aprofunde seu código. Crie projetos reais. Domine o JavaScript moderno.
 
 Levar os alunos que já têm a base (HTML, CSS e JS) para o **próximo nível**, desenvolvendo:
 
-- domínio de conceitos intermediários de **JavaScript** (funções, arrays, objetos e eventos avançados);
-- boas práticas e **organização de código**;
-- construção de um **mini projeto completo**, com foco em lógica, componentes e interatividade real.
+- domínio de conceitos intermediários de **JavaScript** (funções, arrays, objetos e eventos avançados),
+- boas práticas e **organização de código**,
+- e a construção de um **projeto completo**, com foco em lógica, componentes e interatividade real.
 
 ---
 
@@ -55,7 +55,7 @@ Clique nos links abaixo para abrir o material completo:
 
 ## 📄 [Conteúdo Programático](CONTEUDO_PROGRAMATICO.md) (clique para abrir)
 
-## 🧰 Recursos da Mentoria
+## 🧰 Recursos que acompanham a mentoria
 
 - 📑 **Slides** de cada encontro  
 - 💻 **Repositório base no GitHub** com exemplos práticos  
@@ -66,13 +66,19 @@ Clique nos links abaixo para abrir o material completo:
 
 ## 🧾 Exemplo de Entrega Final
 
-**Projeto:** To-Do List completo, com as seguintes funcionalidades:
+**Projeto:** Sistema Kanban Interativo
 
-- Adicionar, editar e remover tarefas  
-- Marcar tarefas como concluídas  
-- Salvar tarefas no `localStorage`  
-- Contador dinâmico de tarefas pendentes  
-- Filtros para visualizar todas, pendentes ou concluídas  
+**Descrição:** No projeto final da mentoria, você vai construir o seu próprio sistema de Kanban, como os usados em empresas como Trello e Jira.
+
+Será um app 100% interativo, feito apenas com HTML, CSS e JavaScript puro, com drag-and-drop, salvamento automático e uma interface moderna digna de portfólio profissional.
+
+**Funcionalidades principais**:
+
+- Criar, mover e excluir tarefas;
+- Colunas “A Fazer”, “Fazendo” e “Concluído”;
+- Reorganização com **arrastar e soltar**;
+- Salvamento automático das tarefas no `localStorage`;
+- Contadores de tarefas por coluna.
 
 ---
 
