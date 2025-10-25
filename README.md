@@ -45,7 +45,7 @@ Clique nos links abaixo para abrir o material completo:
 | 🧩 **Encontro 1** | JavaScript Moderno na Prática | [Acessar »](./encontro-1/README.md) |
 | ⚙️ **Encontro 2** | Arrays, Objetos e Interatividade | [Acessar »](./encontro-2/README.md) |
 | 🧠 **Encontro 3** | Componentização e Reutilização | [Acessar »](./encontro-3/README.md) |
-| 🎨 **Encontro 4** | Mini Projeto Final – To-Do List | [Acessar »](./encontro-4/README.md) |
+| 🎨 **Encontro 4** | Mini Projeto Final – Sistema Kanban Interativo | [Acessar »](./projeto-final/README.md) |
 
 ---
 
