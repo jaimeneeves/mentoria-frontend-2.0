@@ -74,7 +74,7 @@ console.log(apresentacao);
 
 💡 Use crases (`) para unir texto e variáveis de forma elegante.
 
-### 🖥️ Slide 4 – Manipulação Dinâmica do DOM
+### 🖥️ Manipulação Dinâmica do DOM
 
 **Acessando e alterando elementos:**
 

@@ -1,78 +1,71 @@
-🎨 ENCONTRO 4 – Mini Projeto Final: To-Do List
+🎨 Encontro 4 – Mini Projeto Final: Sistema Kanban Interativo
 
-> 🚀 Colocando tudo em prática num projeto real.
+> 🚀 Colocando tudo em prática com um projeto que parece de empresa!
 
-## 🎯 Objetivos
+## 🎯 Objetivo do Encontro
 
-- Unir tudo que foi aprendido.
-- Criar uma aplicação completa com **interatividade e persistência**.
+Encerrar a mentoria com a construção de um projeto completo e profissional, que consolide todos os conceitos aprendidos até aqui — manipulação de DOM, arrays, objetos, eventos e persistência de dados.
 
-## 🗂️ Estrutura Base
+---
 
-HTML com input, botão e lista:
+## 🧩 O que vamos aprender
 
-```html
-<main class="todo">
-  <h1>Minhas Tarefas</h1>
+- Como estruturar um projeto real do zero (pastas, HTML, CSS e JS);
+- Manipulação de listas dinâmicas com arrays e objetos;
+- Organização e componentização do código JavaScript;
+- Uso de eventos avançados e Drag & Drop para arrastar e soltar elementos;
+- Salvamento de dados com localStorage;
+- Criação de uma interface moderna e funcional.
 
-  <div class="input-group">
-    <input id="input-task" type="text" placeholder="Digite uma tarefa">
-    <button id="btn-add">Adicionar</button>
-  </div>
+---
 
-  <ul id="task-list"></ul>
+## 💻 Atividade Prática: Construindo o Sistema Kanban
 
-  <p id="counter"></p>
-</main>
-```
+**Descrição:**
 
-## ⚙️ Adicionando Itens
+Vamos desenvolver um Sistema Kanban de Tarefas — um painel visual onde o usuário pode criar, mover e concluir tarefas em diferentes colunas, semelhante ao Trello.
 
-```js
-const btnAdd = document.getElementById('btn-add');
-const inputTask = document.getElementById('input-task');
-const taskList = document.getElementById('task-list');
-const counter = document.getElementById('counter');
-const tasks = [];
+**Etapas da construção:**
 
-btnAdd.addEventListener('click', () => {
-  const text = input.value;
-  tasks.push({ text, done: false });
-  renderTasks();
-});
+1. Estruturação do HTML com colunas (“A Fazer”, “Fazendo” e “Concluído”);
+2. Criação dos estilos básicos no CSS para layout e cards de tarefas;
+3. Implementação da lógica de criação de tarefas (input + botão “Adicionar”);
+4. Desenvolvimento da funcionalidade de arrastar e soltar tarefas entre colunas;
+5. Salvamento e carregamento das tarefas usando localStorage;
+6. Contadores dinâmicos de tarefas por coluna.
 
-function renderTasks() {
-  taskList.innerHTML = tasks.map(task => `
-    <li class="${task.done ? 'done' : ''}">${task.text}</li>
-  `).join('');
-  counter.textContent = `Total: ${tasks.length} tarefas`;
-}
-```
+---
 
-💡 Cada tarefa é um objeto no array tasks.
+## 🧠 Conceitos Reforçados
 
-## 💾 Salvando no localStorage
+- Manipulação de elementos com o DOM;
+- Arrays e objetos para armazenar dados de forma organizada;
+- Eventos (`dragstart`, `dragover`, `drop`, `click`);
+- Componentização de funções (criação de tarefas e renderização);
+- Persistência com `localStorage.setItem()` e `localStorage.getItem()`;
+- Atualização dinâmica da interface.
 
-```js
-function saveTasks() {
-  localStorage.setItem('tasks', JSON.stringify(tasks));
-}
-function loadTasks() {
-  const saved = localStorage.getItem('tasks');
-  if (saved) {
-    tasks.push(...JSON.parse(saved));
-    renderTasks();
-  }
-}
-loadTasks();
+---
 
-btnAdd.addEventListener('click', () => {
-  const text = input.value;
-  tasks.push({ text, done: false });
-  saveTasks();
-  renderTasks();
-});
-```
+## ⚡ Desafio para Casa
 
+> 🎯 Personalize o seu Kanban!
 
-Agora é com você! Consulte a página do exemplo para ver as funcionalidades sugeridas e instruções extras: [projeto-exemplo/README.md](projeto-exemplo/README.md) (clique para abrir).
+Aprimore o sistema Kanban adicionando:
+
+- Opção de editar o título ou descrição da tarefa;
+- Filtro de tarefas por status (todas, pendentes, concluídas);
+- Contador geral de tarefas;
+- Um modo escuro/claro (Dark Mode).
+
+💡 Dica: use classList.toggle() para alternar temas e salve a preferência do usuário no localStorage.
+
+---
+
+## 🏁 Encerramento da Mentoria
+
+- Revisão geral dos conceitos aprendidos;
+- Dicas para transformar o projeto em portfólio;
+- Sugestões de estudos avançados (APIs, frameworks, React e Next.js).
+
+> 💬 Parabéns! Você acaba de finalizar a Mentoria Frontend 2.0 — levando seu código a um novo nível com JavaScript moderno e boas práticas de Frontend.
