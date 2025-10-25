@@ -1,5 +1,11 @@
 # 🗓️ Roteiro dos Encontros
 
+**💡 Importante:**
+
+Cada encontro foi planejado para preparar você, passo a passo, para o **projeto final da mentoria — o Sistema Kanban Interativo**.
+
+Do entendimento das funções e eventos no início, até a manipulação de arrays, objetos e componentização, tudo converge para que você desenvolva um projeto real com JavaScript moderno e boas práticas.
+
 ## 🧩 Encontro 1 – JavaScript Moderno na Prática  
 > 🧠 Entendendo o poder do JS e como organizar melhor seu código
 
