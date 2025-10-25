@@ -170,3 +170,9 @@ console.log(listaTarefas);
 ### 🧰 Atividade Prática
 
 A Atividade prática está detalhada no arquivo [projeto/README.md](projeto/README.md).
+
+---
+
+## 💡 Conexão com o projeto final:
+
+> A lógica de componentização que desenvolvemos aqui será aplicada diretamente na criação dos cards de tarefas do Sistema Kanban, tornando o código modular, reutilizável e mais fácil de manter.

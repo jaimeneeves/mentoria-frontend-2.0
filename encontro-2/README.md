@@ -151,3 +151,9 @@ document.querySelector("#lista").innerHTML =
 ### 🧰 Atividade Prática
 
 A Atividade prática está detalhada no arquivo [projeto/README.md](projeto/README.md).
+
+---
+
+## 💡 Conexão com o projeto final:
+
+> Os conceitos de arrays e objetos que exploramos aqui serão fundamentais no Sistema Kanban, onde usaremos essas estruturas para armazenar e manipular as tarefas do usuário de forma dinâmica.

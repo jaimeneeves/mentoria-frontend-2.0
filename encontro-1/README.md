@@ -135,3 +135,9 @@ Gerenciar o estado de forma eficiente é crucial para criar aplicações interat
 ### 🧰 Atividade Prática
 
 A Atividade prática está detalhada no arquivo [projeto/README.md](projeto/README.md).
+
+---
+
+## 💡 Conexão com o projeto final:
+
+> Nesta aula, aprendemos os fundamentos de manipulação de elementos e funções — habilidades essenciais para o projeto final da mentoria, onde criaremos um sistema completo de Kanban interativo.
