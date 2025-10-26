@@ -14,28 +14,3 @@
 //     - Ex: clique para destacar o card selecionado
 
 // 💡 Dica: tente usar dataset (data-type) para identificar o tipo do card.
-
-// --- REMOVE OS CÓDIGOS ABAIXO ---
-
-function createCard({ title, category }) {
-  const card = document.createElement("div");
-  card.className = "card mb-3";
-  card.innerHTML = `
-    <h3>${title}</h3>
-    <p>${category}</p>
-  `;
-  return card;
-}
-
-const container = document.createElement("section");
-document.body.appendChild(container);
-
-const items = [
-  { title: "Curso de JS", category: "Frontend" },
-  { title: "Curso de Node", category: "Backend" },
-];
-
-items.forEach(item => {
-  const card = createCard(item);
-  container.appendChild(card);
-});
