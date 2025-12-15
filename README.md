@@ -1,4 +1,4 @@
-# 🚀 Mentoria Frontend 2.0 – Nível Intermediário
+# 🚀 Mentoria JavaScript – Nível Intermediário
 
 Aprofunde seu código. Crie projetos reais. Domine o JavaScript moderno.
 > 💻 Com: **Jaime Neves**
