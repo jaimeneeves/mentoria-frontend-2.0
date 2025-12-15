@@ -17,11 +17,11 @@ Levar os alunos que já têm a base (HTML, CSS e JS) para o **próximo nível**,
 
 ## 🧭 Formato da Mentoria
 
-- **4 encontros online e ao vivo** (1h30 cada)  
+- **4 encontros online e ao vivo** 1h cada  
 - **Plataforma:** Google Meet  
 - **Recursos:** slides + exemplos práticos + desafios guiados  
 - **Nível:** Intermediário (ideal para quem já fez a Mentoria Frontend 1.0) ou (para quem já domina HTML, CSS e JS **básico**)
-- Projeto final: **To-Do List interativa com localStorage**
+- Projeto final: **Sistema Kanban com drag-and-drop e persistência com localStorage**
 - **Suporte:** Grupo no WhatsApp exclusivo para dúvidas e troca de experiências  
 
 ---
